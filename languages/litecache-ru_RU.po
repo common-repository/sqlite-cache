@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SQLite Cache v0.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-05 15:43+0200\n"
+"PO-Revision-Date: 2015-06-05 15:52+0200\n"
+"Last-Translator: Andrey K. <andrey271@bigmir.net>\n"
+"Language-Team: SQLite Cache <andrey271@bigmir.net>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
+"1 : 2);\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;"
+"_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: .\n"
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:61
+msgid "SQLite Cache Settings"
+msgstr "Настройки SQLite кэширования"
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:66
+msgid "SQLite cache storage directory and settings"
+msgstr "Директория и настройки SQLite кэш"
+
+#: sqlite-cache/wp-sqlite-cache.php:68
+msgid "Your WordPress installation parameters:"
+msgstr "Параметры вашей установки WordPress:"
+
+#: sqlite-cache/wp-sqlite-cache.php:71
+msgid "WordPress installation ABSPATH constant"
+msgstr "Константа ABSPATH вашей установки WordPress"
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:72
+msgid "This plugin directory"
+msgstr "Директория данного плагина"
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:73
+msgid ""
+"These settings will be applied for all WordPress sites installed into one common directory or for all sites "
+"of WordPress MultiSite installation. One SQLite cache database can serve dozens of sites."
+msgstr ""
+"Эти настройки будут применены ко всем WordPress-сайтам, установленным в одной папке или для всех сайтов в "
+"установке WordPress MultiSite. Одна база SQLite может работать как кэш для десятков сайтов."
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:74
+msgid "SQLite database directory, full path"
+msgstr "Директории для базы данных SQLite, полный путь"
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:78
+msgid "Compress cached data"
+msgstr "Сжимать кэшированные данные"
+
+#: sqlite-cache/wp-sqlite-cache.php:88
+msgid ""
+"Directory for cache is not defined yet. Enter path into the following field. If it is not exist the attempt "
+"to create it will be performed."
+msgstr ""
+"Директория для кэш еще не указана. Введите путь в соответствующем поле. Если она не существует, будет "
+"предпринята попытка создать её."
+
+#: sqlite-cache/wp-sqlite-cache.php:95
+#, php-format
+msgid "To get cache working you must add manually the following lines in the top of %s file:"
+msgstr "Чтобы кэширование заработало, нужно добавить следующие строки в начале файла %s."
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:102
+#, php-format
+msgid "%s per domain settings"
+msgstr "Настройки для домена %s"
+
+#: sqlite-cache/wp-sqlite-cache.php:110
+#, php-format
+msgid "File %s doesn't exist yet. Submit «%s» form to attempt create it."
+msgstr "Файл %s ещё не существует. Чтобы попробовать создать его, нажмите кнопку в форме «%s»."
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:116
+msgid ""
+"Cache is not active yet: you need to set cache expiration term. 1 hour = 3600 seconds, 1 day = 86400 seconds."
+msgstr ""
+"Кэширование еще не действует: нужно указать срок устаревания. 1 час = 3600 секунд, 1 сутки = 86400 секунд."
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:119
+msgid "Exclude cache for paths, one expression per line"
+msgstr "Не кэшировать эти пути, по одному выражению на строку"
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:122
+msgid "regular expression for <code>REQUEST_URI</code>. Leave empty field to cache all."
+msgstr "регулярное выражение для <code>REQUEST_URI</code>. Если пусто, то кэшируется всё."
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:124
+msgid "Expire cached pages after"
+msgstr "Кєшированные страницы устаревают через"
+
+# @ default
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:125
+msgid "seconds"
+msgstr "секунд"
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:128
+msgid "Show performance time"
+msgstr "Показывать время выполнения"
+
+#: sqlite-cache/wp-sqlite-cache.php:130
+msgid "for testing"
+msgstr "для тестирования"
+
+#: sqlite-cache/wp-sqlite-cache.php:134
+msgid "Include HTTP headers"
+msgstr "Включать HTTP-заголовки"
+
+#: sqlite-cache/wp-sqlite-cache.php:143
+msgid "recommended to save traffic"
+msgstr "рекомендуется для экономии траффика"
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:149
+msgid "Purge Cache for Domain"
+msgstr "Очистить кэш для домена"
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:151
+#, php-format
+msgid "Pattern to purge (substring of %s)"
+msgstr "Шаблон для очистки (подстрока %s)"
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:153
+msgid "Leave empty field to purge all."
+msgstr "Оставьте пустым, чтобы очистить всё."
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:154
+msgid "Purge Cache"
+msgstr "Очистить кэш"
+
+#: sqlite-cache/wp-sqlite-cache.php:156
+msgid ""
+"Cache is not used for authorized users and for visitors who has commenter's cookie (leaved a comment "
+"recently) or open PHP session."
+msgstr ""
+"Кэш не используется для залогиненных пользователей, для посетителей с установленным куком комментатора (кто "
+"недавно оставлял комментарий) или с открытой PHP сессией."
+
+#: sqlite-cache/wp-sqlite-cache.php:157
+msgid "Cache of an updated/deleted/trashed page or single post will be cleared by the plugin automatically."
+msgstr "При обновлении/удалении/отправке в корзину страницы или записи её кэш очищается автоматически."
+
+#: sqlite-cache/wp-sqlite-cache.php:158
+msgid "Cache for a commented post or page on new comment will be cleared too."
+msgstr "Кэш страницы или записи при поступлении нового комментария тоже очищается."
+
+#: sqlite-cache/wp-sqlite-cache.php:159
+msgid ""
+"Don't forget to clear cache after switch theme, change widgets, editing menus and other actions affecting "
+"site look."
+msgstr ""
+"Не забывайте очищать кэш после смены темы, изменения виджетов, редактирования меню и других действий, "
+"влияющих на вид сайта."
+
+#: sqlite-cache/wp-sqlite-cache.php:160
+msgid ""
+"To disable cache, deactivate the plugin. Remove inclusion of lite-cache.php from WordPress index.php before "
+"deleting the plugin."
+msgstr ""
+"Чтобы отключить кэш, деактивируйте плагин. Перед удалением плагина удалите подлючение lite-cache.php из "
+"файла WordPress index.php."
+
+#: sqlite-cache/wp-sqlite-cache.php:196
+msgid "Can not create a directory."
+msgstr "Не удалось создать директорию."
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:200
+msgid "This path is not a directory."
+msgstr "Этот путь не директория"
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:208
+msgid "Database file has not been created."
+msgstr "База данных не была создана."
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:234
+#, php-format
+msgid "litecache.ini file has not been created/rewritten in %s."
+msgstr "Файл litecache.ini не был создан или переписан в %s."
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:269
+msgid "Domain ini file has not been created/rewritten."
+msgstr "ini-файл для домена не был создан или перезаписан."
+
+# @ litecache
+#: sqlite-cache/wp-sqlite-cache.php:303
+msgid "Cache has been cleaned."
+msgstr "Кэш почищен"
+
+# @ litecache
+#~ msgid "Multi-Site/Super-Admin Settings"
+#~ msgstr "Мульти-сайт/супер-админ настройки"
+
+# @ litecache
+#~ msgid "To disable cache, deactivate the plugin."
+#~ msgstr "Чтобы отключить кэширование, деактивируйте плагин."
+
+# @ litecache
+#~ msgid "SQLite cache has been disabled"
+#~ msgstr "SQLite cache отключен"
+
+# @ litecache
+#~ msgid "Error while deleting SQLite domain ini file"
+#~ msgstr "Ошибка при удалении ini-файла домена"
